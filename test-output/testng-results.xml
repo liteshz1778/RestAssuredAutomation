@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-18T14:26:08 IST" name="PetStoreAutomationSuite" finished-at="2024-03-18T14:26:58 IST" duration-ms="49433">
+    <groups>
+    </groups>
+    <test started-at="2024-03-18T14:26:08 IST" name="PetStoreAutomationTestAllRequest" finished-at="2024-03-18T14:26:27 IST" duration-ms="18427">
+      <class name="api.tests.UserTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.UserTests@3c77d488]" started-at="2024-03-18T14:26:09 IST" name="setUp" finished-at="2024-03-18T14:26:10 IST" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateUser()[pri:1, instance:api.tests.UserTests@3c77d488]" started-at="2024-03-18T14:26:10 IST" name="testCreateUser" finished-at="2024-03-18T14:26:18 IST" duration-ms="7841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetUser()[pri:2, instance:api.tests.UserTests@3c77d488]" started-at="2024-03-18T14:26:18 IST" name="testGetUser" finished-at="2024-03-18T14:26:21 IST" depends-on-methods="api.tests.UserTests.testCreateUser" duration-ms="2395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.tests.UserTests@3c77d488]" started-at="2024-03-18T14:26:21 IST" name="testUpdateUser" finished-at="2024-03-18T14:26:25 IST" depends-on-methods="api.tests.UserTests.testCreateUser" duration-ms="3924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUser()[pri:4, instance:api.tests.UserTests@3c77d488]" started-at="2024-03-18T14:26:25 IST" name="testDeleteUser" finished-at="2024-03-18T14:26:27 IST" depends-on-methods="api.tests.UserTests.testCreateUser, api.tests.UserTests.testUpdateUser" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.tests.UserTests -->
+    </test> <!-- PetStoreAutomationTestAllRequest -->
+    <test started-at="2024-03-18T14:26:28 IST" name="PetStoreAutomationTestDDDTestcases" finished-at="2024-03-18T14:26:58 IST" duration-ms="30239">
+      <class name="api.tests.DataDrivenTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:30 IST" name="setUp" finished-at="2024-03-18T14:26:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:30 IST" name="testCreateUser" data-provider="Data" finished-at="2024-03-18T14:26:35 IST" duration-ms="5202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abcd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:35 IST" name="setUp" finished-at="2024-03-18T14:26:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:35 IST" name="testCreateUser" data-provider="Data" finished-at="2024-03-18T14:26:39 IST" duration-ms="4377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bcde]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bcde]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bcde]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:39 IST" name="setUp" finished-at="2024-03-18T14:26:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:39 IST" name="testCreateUser" data-provider="Data" finished-at="2024-03-18T14:26:44 IST" duration-ms="4141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cdef]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cdef]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cdef]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[345678901]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:44 IST" name="setUp" finished-at="2024-03-18T14:26:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:44 IST" name="testCreateUser" data-provider="Data" finished-at="2024-03-18T14:26:49 IST" duration-ms="5669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Defg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Defg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Defg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[456789012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:49 IST" name="setUp" finished-at="2024-03-18T14:26:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteUser(java.lang.String)[pri:2, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:49 IST" name="deleteUser" data-provider="UserNames" finished-at="2024-03-18T14:26:52 IST" depends-on-methods="api.tests.DataDrivenTests.testCreateUser" duration-ms="2082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:52 IST" name="setUp" finished-at="2024-03-18T14:26:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteUser(java.lang.String)[pri:2, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:52 IST" name="deleteUser" data-provider="UserNames" finished-at="2024-03-18T14:26:54 IST" depends-on-methods="api.tests.DataDrivenTests.testCreateUser" duration-ms="2179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:54 IST" name="setUp" finished-at="2024-03-18T14:26:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteUser(java.lang.String)[pri:2, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:54 IST" name="deleteUser" data-provider="UserNames" finished-at="2024-03-18T14:26:55 IST" depends-on-methods="api.tests.DataDrivenTests.testCreateUser" duration-ms="1777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:55 IST" name="setUp" finished-at="2024-03-18T14:26:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteUser(java.lang.String)[pri:2, instance:api.tests.DataDrivenTests@15043a2f]" started-at="2024-03-18T14:26:55 IST" name="deleteUser" data-provider="UserNames" finished-at="2024-03-18T14:26:58 IST" depends-on-methods="api.tests.DataDrivenTests.testCreateUser" duration-ms="2409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- api.tests.DataDrivenTests -->
+    </test> <!-- PetStoreAutomationTestDDDTestcases -->
+  </suite> <!-- PetStoreAutomationSuite -->
+</testng-results>

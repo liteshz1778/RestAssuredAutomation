@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  PetStoreAutomationTestCombined</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PetStoreAutomationTestCombined</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 18 14:17:55 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47842 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.tests.UserTests.testCreateUser()'><b>testCreateUser</b><br>Test class: api.tests.UserTests</td>
+<td></td>
+<td>6</td>
+<td>api.tests.UserTests@2892d68</td></tr>
+<tr>
+<td title='api.tests.DataDrivenTests.deleteUser()'><b>deleteUser</b><br>Test class: api.tests.DataDrivenTests<br>Parameters: ABCD02</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DataDrivenTests@46cdf8bd</td></tr>
+<tr>
+<td title='api.tests.UserTests.testDeleteUser()'><b>testDeleteUser</b><br>Test class: api.tests.UserTests</td>
+<td></td>
+<td>2</td>
+<td>api.tests.UserTests@2892d68</td></tr>
+<tr>
+<td title='api.tests.DataDrivenTests.testCreateUser()'><b>testCreateUser</b><br>Test class: api.tests.DataDrivenTests<br>Parameters: ABCD04, Defg, Defg, Defg, 456789012</td>
+<td></td>
+<td>4</td>
+<td>api.tests.DataDrivenTests@46cdf8bd</td></tr>
+<tr>
+<td title='api.tests.DataDrivenTests.testCreateUser()'><b>testCreateUser</b><br>Test class: api.tests.DataDrivenTests<br>Parameters: ABCD02, Bcde, Bcde, Bcde, 234567890</td>
+<td></td>
+<td>5</td>
+<td>api.tests.DataDrivenTests@46cdf8bd</td></tr>
+<tr>
+<td title='api.tests.DataDrivenTests.deleteUser()'><b>deleteUser</b><br>Test class: api.tests.DataDrivenTests<br>Parameters: ABCD01</td>
+<td></td>
+<td>2</td>
+<td>api.tests.DataDrivenTests@46cdf8bd</td></tr>
+<tr>
+<td title='api.tests.DataDrivenTests.testCreateUser()'><b>testCreateUser</b><br>Test class: api.tests.DataDrivenTests<br>Parameters: ABCD01, Abcd, Abcd, Abcd, 123456789</td>
+<td></td>
+<td>4</td>
+<td>api.tests.DataDrivenTests@46cdf8bd</td></tr>
+<tr>
+<td title='api.tests.DataDrivenTests.deleteUser()'><b>deleteUser</b><br>Test class: api.tests.DataDrivenTests<br>Parameters: ABCD04</td>
+<td></td>
+<td>2</td>
+<td>api.tests.DataDrivenTests@46cdf8bd</td></tr>
+<tr>
+<td title='api.tests.DataDrivenTests.testCreateUser()'><b>testCreateUser</b><br>Test class: api.tests.DataDrivenTests<br>Parameters: ABCD03, Cdef, Cdef, Cdef, 345678901</td>
+<td></td>
+<td>3</td>
+<td>api.tests.DataDrivenTests@46cdf8bd</td></tr>
+<tr>
+<td title='api.tests.UserTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.tests.UserTests</td>
+<td></td>
+<td>4</td>
+<td>api.tests.UserTests@2892d68</td></tr>
+<tr>
+<td title='api.tests.DataDrivenTests.deleteUser()'><b>deleteUser</b><br>Test class: api.tests.DataDrivenTests<br>Parameters: ABCD03</td>
+<td></td>
+<td>2</td>
+<td>api.tests.DataDrivenTests@46cdf8bd</td></tr>
+<tr>
+<td title='api.tests.UserTests.testGetUser()'><b>testGetUser</b><br>Test class: api.tests.UserTests</td>
+<td></td>
+<td>2</td>
+<td>api.tests.UserTests@2892d68</td></tr>
+</table><p>
+</body>
+</html>
